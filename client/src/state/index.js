@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
+const initialState = { //The application will start with this props
     isCartOpen: false,
     cart: [],
     items: [],

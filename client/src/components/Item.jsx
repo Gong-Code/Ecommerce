@@ -24,7 +24,7 @@ const Item = ({ item, width }) => {
                     medium: { url },
                 }
             }
-         }
+        }
     } = image; //This is how strapi formats when extracting the data and images from strapi.
 
     return (
@@ -86,7 +86,6 @@ const Item = ({ item, width }) => {
                     </Box>    
                 </Box>
             </Box>
-
             <Box mt="3px">
                 <Typography variant="subtitle2" color={neutral.dark}>              
                 {category?.replace(/([A-Z])/g, " $1").replace(/^./, (str) => str.toUpperCase())}

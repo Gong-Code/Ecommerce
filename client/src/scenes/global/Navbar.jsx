@@ -37,8 +37,8 @@ const Navbar = () => {
                 alignItems="center"
             >
                 <Box
-                    onClick={() => navigate("/")}
-                    sx={{ '&:hover': {cursor: "pointer"} }} //Taking the element and convert into hover elemement, then style it with pointer
+                    onClick={() => navigate("/")} // Navigate to the Home page
+                    sx={{ '&:hover': {cursor: "pointer"} }} //Taking the element and convert into hover elemement, then style it with pointer (using pseudo selector syntax)
                     color={shades.secondary[500]}
                 >
                     Ecommer
